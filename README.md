@@ -15,7 +15,6 @@ Este proyecto consiste en el desarrollo de un sitio web para gestionar pedidos e
 ### 1. **Interfaz de Usuario (Cliente)**
 
 - **Menú interactivo**: Listado de categorías y productos con descripciones y precios. Opción de personalizar platos.
-- **Carrito de compras**: Visualización de los productos seleccionados con opción de modificar la cantidad o eliminar productos.
 - **Proceso de pago**: Opción de pago mediante tarjeta de crédito, PayPal, etc.
 - **Opciones de entrega**: Selección de envío a domicilio o recogida en el restaurante.
 - **Historial de pedidos**: Los clientes pueden ver sus pedidos anteriores y repetirlos.
