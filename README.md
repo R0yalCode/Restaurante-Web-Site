@@ -1,4 +1,4 @@
-# Proyecto Restaurante - Módulo de Pedidos en Línea
+# Proyecto Restaurante - Módulo de Pedidos
 
 Este proyecto consiste en el desarrollo de un sitio web para gestionar pedidos en línea en un restaurante. Los clientes podrán realizar pedidos, personalizarlos, seleccionar métodos de pago y recibir notificaciones sobre el estado de su pedido. Además, los administradores del restaurante podrán gestionar el menú, monitorear los pedidos y generar reportes.
 
