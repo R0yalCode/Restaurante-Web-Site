@@ -18,7 +18,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
         
         <!-- Link hacia el archivo de estilos css -->
-        <link rel="stylesheet" href="{% static 'assets_login/css/login.css' %}">
+        <link rel="stylesheet" href="Css/login.css">
         
         <style type="text/css">
             
@@ -43,7 +43,7 @@
                             {% endfor %}
                         </ul>
                     {% endif %}
-<form method="post" action="{% url 'login' %}">
+<form method="post" action="login.html">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit">Login</button>
@@ -56,9 +56,9 @@
                     </div>
                     <hr>
                     <div class="pie-form">
-                        <a href="{% url 'register' %}">¿No tienes Cuenta? Registrate</a>
+                        <a href="register.html">¿No tienes Cuenta? Registrate</a>
                         <hr>
-                        <a href="{% url 'home' %}">« Volver</a>
+                        <a href="index.html">« Volver</a>
                     </div>
                 </div>
             </div>
