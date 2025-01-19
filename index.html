@@ -8,12 +8,12 @@
     <title>FoodHut | Free Bootstrap 4.3.x template</title>
    
     <!-- font icons -->
-    <link rel="stylesheet" href="{% static 'assets/vendors/themify-icons/css/themify-icons.css' %}">
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
 
-    <link rel="stylesheet" href="{% static 'assets/vendors/animate/animate.css' %}">
+    <link rel="stylesheet" href="vendors/animate/animate.css">
 
     <!-- Bootstrap + FoodHut main styles -->
-	<link rel="stylesheet" href="{% static 'assets/css/foodhut.css' %}">
+	<link rel="stylesheet" href="css/foodhut.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
@@ -25,10 +25,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#home">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">Nosotros</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#gallary">Galeria</a>
@@ -38,21 +38,21 @@
                 </li>
             </ul>
             <a class="navbar-brand m-auto" href="#">
-                <img src="{% static 'assets/imgs/logo.svg' %}" class="brand-img" alt="">
-                <span class="brand-txt">Restaurante </span>
+                <img src="imgs/logo.svg" class="brand-img" alt="">
+                <span class="brand-txt">Food Hut</span>
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#blog">Blog<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#testmonial">Comentarios</a>
+                    <a class="nav-link" href="#testmonial">Reviews</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contactanos</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{% url 'login' %}" class="btn btn-primary ml-xl-4">Usuario</a>
+                    <a href="login.html" class="btn btn-primary ml-xl-4">Login</a>
                 </li>
             </ul>
         </div>
@@ -62,7 +62,7 @@
         <div class="overlay text-white text-center">
             <h1 class="display-2 font-weight-bold my-3">Restaurante</h1>
             <h2 class="display-4 mb-5">Always fresh &amp; Delightful</h2>
-            <a class="btn btn-lg btn-primary" href="#gallary">View Our gallary</a>
+            <a class="btn btn-lg btn-primary" href="#gallary">Ver Galeria</a>
         </div>
     </header>
 
@@ -73,10 +73,11 @@
             <div class="col-lg-6">
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
-                        <h2 class="mb-4">Sobre Nosotros</h2>
-                        <p>Profesionales en la cocina, preparando los mejores platos para usted<br>El restaurante "El Miguelon" es conformamodo por un grupo de cinco integrantes, los cuales son altamente capacitados y formados en los mejores cursos de cacina y chef en la mejor Academia de Italia</p>
-                        <p><b>... </b></p>
-                        <p>...</p>
+                        <h2 class="mb-4">About Us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam accusantium nostrum modi, nemo, officia veritatis ipsum facere maxime assumenda voluptatum enim! Labore maiores placeat impedit, vero sed est voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita alias dicta autem, maiores doloremque quo perferendis, ut obcaecati harum, <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum necessitatibus iste,
+                        nulla recusandae porro minus nemo eaque cum repudiandae quidem voluptate magnam voluptatum? <br>Nobis, saepe sapiente omnis qui eligendi pariatur. quis voluptas. Assumenda facere adipisci quaerat. Illum doloremque quae omnis vitae.</p>
+                        <p><b>Lonsectetur adipisicing elit. Blanditiis aspernatur, ratione dolore vero asperiores explicabo.</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
                     </div>
                 </div>
             </div>
@@ -89,73 +90,73 @@
     </div>
     <div class="gallary row">
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-1.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-2.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-3.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-4.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static '' %}assets/imgs/gallary-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-6.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-7.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-7.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-8.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-8.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-9.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-9.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-10.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-10.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-11.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-11.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="{% static 'assets/imgs/gallary-12.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <img src="imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
             </a>
@@ -165,7 +166,7 @@
     <!-- book a table Section  -->
     <div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="book-table">
         <div class="">
-            <h2 class="section-title mb-5">RESERVA UNA MESA</h2>
+            <h2 class="section-title mb-5">BOOK A TABLE</h2>
             <div class="row mb-5">
                 <div class="col-sm-6 col-md-3 col-xs-12 my-2">
                     <input type="email" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="EMAIL">
@@ -180,7 +181,7 @@
                     <input type="date" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="12/12/12">
                 </div>
             </div>
-            <a href="#" class="btn btn-lg btn-primary" id="rounded-btn">BUSCAR MESA</a>
+            <a href="#" class="btn btn-lg btn-primary" id="rounded-btn">FIND TABLE</a>
         </div>
     </div>
 
@@ -204,7 +205,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card bg-transparent border my-3 my-md-0">
-                            <img src="{% static 'assets/imgs/blog-1.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <img src="assets/imgs/blog-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
                             <div class="card-body">
                                 <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>
                                 <h4 class="pt20 pb20">Reiciendis Laborum </h4>
@@ -214,7 +215,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card bg-transparent border my-3 my-md-0">
-                            <img src="{% static 'assets/imgs/blog-2.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <img src="assets/imgs/blog-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
                             <div class="card-body">
                                 <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$12</a></h1>
                                 <h4 class="pt20 pb20">Adipisci Totam</h4>
@@ -224,7 +225,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card bg-transparent border my-3 my-md-0">
-                            <img src="{% static 'assets/imgs/blog-3.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <img src="assets/imgs/blog-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
                             <div class="card-body">
                                 <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
                                 <h4 class="pt20 pb20">Dicta Deserunt</h4>
@@ -238,7 +239,7 @@
                 <div class="row">
                     <div class="col-md-4 my-3 my-md-0">
                         <div class="card bg-transparent border">
-                            <img src="{% static 'assets/imgs/blog-4.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <img src="assets/imgs/blog-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
                             <div class="card-body">
                                 <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$15</a></h1>
                                 <h4 class="pt20 pb20">Consectetur Adipisicing Elit</h4>
@@ -248,7 +249,7 @@
                     </div>
                     <div class="col-md-4 my-3 my-md-0">
                         <div class="card bg-transparent border">
-                            <img src="{% static 'assets/imgs/blog-5.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <img src="assets/imgs/blog-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
                             <div class="card-body">
                                 <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$29</a></h1>
                                 <h4 class="pt20 pb20">Ullam Laboriosam</h4>
@@ -258,7 +259,7 @@
                     </div>
                     <div class="col-md-4 my-3 my-md-0">
                         <div class="card bg-transparent border">
-                            <img src="{% static 'assets/imgs/blog-6.jpg' %}" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <img src="assets/imgs/blog-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
                             <div class="card-body">
                                 <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$3</a></h1>
                                 <h4 class="pt20 pb20">Fugit Ipsam</h4>
@@ -271,7 +272,39 @@
         </div>
     </div>
 
-    {% include 'reviews.html' %}
+    <!-- REVIEWS Section  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
+        <h2 class="section-title my-5 text-center">REVIEWS</h2>
+        <div class="row mt-3 mb-5">
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Carlos Granda</h3>
+                    <h6 class="testmonial-subtitle">Cliente</h6>
+                    <div class="testmonial-body">
+                        <p>Hoy pedi un tamal, el cual me ha sido de mi mayor agrado, me iso sentir muchas emociones las cuales no habia sentido en otros lugares que he visitado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Steve Thomas</h3>
+                    <h6 class="testmonial-subtitle">UX/UI Designer</h6>
+                    <div class="testmonial-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum minus obcaecati cum eligendi perferendis magni dolorum ipsum magnam, sunt reiciendis natus. Aperiam!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Miranda Joy</h3>
+                    <h6 class="testmonial-subtitle">Graphic Designer</h6>
+                    <div class="testmonial-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, nam. Earum nobis eligendi, dignissimos consequuntur blanditiis natus. Aperiam!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- CONTACT Section  -->
     <div id="contact" class="container-fluid bg-dark text-light border-top wow fadeIn">
@@ -280,32 +313,54 @@
                 <div id="map" style="width: 100%; height: 100%; min-height: 400px"></div>
             </div>
             <div class="col-md-6 px-5 has-height-lg middle-items">
-                <h3>ENCUENTRANOS</h3>
-                <p>Estamos ubicados en la provincia de loja</p>
+                <h3>FIND US</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, laboriosam doloremque odio delectus, sunt magnam laborum impedit molestiae, magni quae ipsum, ullam eos! Alias suscipit impedit et, adipisci illo quam.</p>
                 <div class="text-muted">
-                    <p><span class="ti-location-pin pr-3"></span> Ciudad Universitaria  Guillermo Falconí - Loja - Ecuador </p>
-                    <p><span class="ti-support pr-3"></span> 0969089092</p>
-                    <p><span class="ti-email pr-3"></span>carlosjosue@gmail.com</p>
+                    <p><span class="ti-location-pin pr-3"></span> 12345 Fake ST NoWhere, AB Country</p>
+                    <p><span class="ti-support pr-3"></span> (123) 456-7890</p>
+                    <p><span class="ti-email pr-3"></span>info@website.com</p>
                 </div>
             </div>
         </div>
     </div>
-    {% include 'contacts.html' %}
+
+    <!-- page footer  -->
+    <div class="container-fluid bg-dark text-light has-height-md middle-items border-top text-center wow fadeIn">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>EMAIL US</h3>
+                <P class="text-muted">info@website.com</P>
+            </div>
+            <div class="col-sm-4">
+                <h3>LLAMANOS</h3>
+                <P class="text-muted">(123) 456-7890</P>
+            </div>
+            <div class="col-sm-4">
+                <h3>FIND US</h3>
+                <P class="text-muted">12345 Fake ST NoWhere AB Country</P>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark text-light text-center border-top wow fadeIn">
+        <p class="mb-0 py-3 text-muted small">&copy; Copyright <script>document.write(new Date().getFullYear())</script> Made with <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com">DevCRUD</a></p>
+    </div>
+    <!-- end of page footer -->
+
 	<!-- core  -->
-    <script src="{% static 'assets/vendors/jquery/jquery-3.4.1.js' %}"></script>
-    <script src="{% static 'assets/vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+    <script src="vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- bootstrap affix -->
-    <script src="{% static 'assets/vendors/bootstrap/bootstrap.affix.js' %}"></script>
+    <script src="vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- wow.js -->
-    <script src="{% static 'assets/vendors/wow/wow.js' %}"></script>
+    <script src="vendors/wow/wow.js"></script>
     
     <!-- google maps -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
 
     <!-- FoodHut js -->
-    <script src="{% static 'assets/js/foodhut.js' %}"></script>
-    </div>
+    <script src="assets/js/foodhut.js"></script>
+
 </body>
 </html>
