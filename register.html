@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Sign-Up/Login Form</title>
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -14,7 +14,7 @@
         <div id="signup">
           <h1>CREA TU CUENTA</h1>
 
-            <form action="{% url 'register' %}" method="post">
+            <form action="register.html" method="post">
     {% csrf_token %}
     <div class="field-wrap">
         <label>
@@ -73,7 +73,7 @@
 
 </div> <!-- /form -->
 <!-- partial -->
-  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="{% static 'assets/js/script.js' %}"></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="js/script.js"></script>
 
 </body>
 </html>
