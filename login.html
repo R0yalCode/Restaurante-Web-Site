@@ -39,16 +39,7 @@
             
             <div id="contenedorcentrado">
                 <div id="login">
-                    {% if messages %}
-                        <ul>
-                            {% for message in messages %}
-                                <li>{{ message }}</li>
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
 <form method="post" action="login.html">
-        {% csrf_token %}
-        {{ form.as_p }}
         <button type="submit">Login</button>
     </form>
                     
